@@ -97,6 +97,16 @@ class MyPages extends StatelessWidget {
                 child: Text("Semantic true", style: TextStyle(fontSize: 14)),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              shadowColor: Colors.red,
+              elevation: 10,
+              child: Padding(
+                padding: EdgeInsets.all(8),
+                child: Text("Shadow Color Card", style: TextStyle(fontSize: 14)),
+              ),
+            ),
           ],
         ),
       ),
