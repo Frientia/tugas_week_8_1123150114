@@ -36,6 +36,18 @@ class MyPages extends StatelessWidget {
               color: Colors.yellow,
               child: Text("Tinggi Bayangan Shadow", style: TextStyle(fontSize: 12),),
             ),
+            SizedBox(height: 16),
+
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.circular(16),
+                boxShadow: [
+                  BoxShadow(color: Colors.black26, blurRadius: 10, offset: Offset(0, 4)),
+                ],
+              ),
+              child: Text("Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0)),
+            ),
           ],
         ),
       ),
