@@ -6,9 +6,7 @@ class MyPages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Latihan Card Widget"),
-      ),
+      appBar: AppBar(title: Text("Latihan Card Widget")),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16),
         child: Column(
@@ -17,7 +15,7 @@ class MyPages extends StatelessWidget {
               color: Colors.amber,
               child: Padding(
                 padding: EdgeInsets.all(12),
-                child: Text("Card with color", style: TextStyle(fontSize: 16),),
+                child: Text("Card with color", style: TextStyle(fontSize: 16)),
               ),
             ),
             SizedBox(height: 16),
@@ -27,14 +25,20 @@ class MyPages extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: Colors.red,
               ),
-              child: Text("Container with Color", style: TextStyle(fontSize: 16),),
+              child: Text(
+                "Container with Color",
+                style: TextStyle(fontSize: 16),
+              ),
             ),
             SizedBox(height: 16),
 
             Card(
               elevation: 8,
               color: Colors.yellow,
-              child: Text("Tinggi Bayangan Shadow", style: TextStyle(fontSize: 12),),
+              child: Text(
+                "Tinggi Bayangan Shadow",
+                style: TextStyle(fontSize: 12),
+              ),
             ),
             SizedBox(height: 16),
 
@@ -43,18 +47,30 @@ class MyPages extends StatelessWidget {
                 color: Colors.yellow,
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [
-                  BoxShadow(color: Colors.black26, blurRadius: 10, offset: Offset(0, 4)),
+                  BoxShadow(
+                    color: Colors.black26,
+                    blurRadius: 10,
+                    offset: Offset(0, 4),
+                  ),
                 ],
               ),
-              child: Text("Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0)),
+              child: Text(
+                "Tinggi bayangan Shadow",
+                style: TextStyle(fontSize: 12.0),
+              ),
             ),
             SizedBox(height: 16),
 
             Card(
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15),
+              ),
               child: Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("Shape Bingkai persegi panjang", style: TextStyle(fontSize: 12),),
+                child: Text(
+                  "Shape Bingkai persegi panjang",
+                  style: TextStyle(fontSize: 12),
+                ),
               ),
             ),
             SizedBox(height: 16),
@@ -63,7 +79,7 @@ class MyPages extends StatelessWidget {
               margin: EdgeInsets.all(16),
               child: Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("Margin Card", style: TextStyle(fontSize: 10),),
+                child: Text("Margin Card", style: TextStyle(fontSize: 10)),
               ),
             ),
             SizedBox(height: 16),
@@ -76,7 +92,10 @@ class MyPages extends StatelessWidget {
               borderOnForeground: true,
               child: Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("Border tidak menimpa konten", style: TextStyle(fontSize: 12)),
+                child: Text(
+                  "Border tidak menimpa konten",
+                  style: TextStyle(fontSize: 12),
+                ),
               ),
             ),
             SizedBox(height: 16),
@@ -85,7 +104,10 @@ class MyPages extends StatelessWidget {
               clipBehavior: Clip.antiAlias,
               child: Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("Anti alias clip Card", style: TextStyle(fontSize: 14)),
+                child: Text(
+                  "Anti alias clip Card",
+                  style: TextStyle(fontSize: 14),
+                ),
               ),
             ),
             SizedBox(height: 16),
@@ -104,7 +126,10 @@ class MyPages extends StatelessWidget {
               elevation: 10,
               child: Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("Shadow Color Card", style: TextStyle(fontSize: 14)),
+                child: Text(
+                  "Shadow Color Card",
+                  style: TextStyle(fontSize: 14),
+                ),
               ),
             ),
             SizedBox(height: 16),
@@ -115,7 +140,10 @@ class MyPages extends StatelessWidget {
               ),
               child: Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("Custom border radius Card", style: TextStyle(fontSize: 14)),
+                child: Text(
+                  "Custom border radius Card",
+                  style: TextStyle(fontSize: 14),
+                ),
               ),
             ),
             SizedBox(height: 16),
@@ -129,12 +157,19 @@ class MyPages extends StatelessWidget {
                   children: [
                     Text(
                       "Tentang Saya",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                     SizedBox(height: 12),
                     Text(
                       'Muhamad yajid rizky seorang mahasiswa yang berkuliah di kampus........',
-                      style: TextStyle(fontSize: 15, color: Colors.grey, height: 1.5),
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.grey,
+                        height: 1.5,
+                      ),
                       textAlign: TextAlign.justify,
                     ),
                   ],
@@ -147,15 +182,19 @@ class MyPages extends StatelessWidget {
               elevation: 8,
               shadowColor: Colors.red,
               clipBehavior: Clip.antiAlias,
-              child: Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topRight,
-                    end: Alignment.bottomLeft,
-                    colors: [Colors.blue, Colors.red],
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topRight,
+                        end: Alignment.bottomLeft,
+                        colors: [Colors.blue, Colors.red],
+                      ),
+                    ),
+                    child: Text("Text", style: TextStyle(fontSize: 20)),
                   ),
-                ),
-                child: Text("Text", style: TextStyle(fontSize: 20)),
+                ],
               ),
             ),
           ],
