@@ -13,7 +13,13 @@ class MyPages extends StatelessWidget {
         padding: EdgeInsets.all(16),
         child: Column(
           children: [
-            
+            Card(
+              color: Colors.amber,
+              child: Padding(
+                padding: EdgeInsets.all(12),
+                child: Text("Card with color", style: TextStyle(fontSize: 16),),
+              ),
+            ),
           ],
         ),
       ),
