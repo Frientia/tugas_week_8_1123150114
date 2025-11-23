@@ -192,7 +192,18 @@ class MyPages extends StatelessWidget {
                         colors: [Colors.blue, Colors.red],
                       ),
                     ),
-                    child: Text("Text", style: TextStyle(fontSize: 20)),
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(shape: BoxShape.circle),
+                          child: CircleAvatar(
+                            radius: 60,
+                            backgroundImage: AssetImage("assets/images/default-waifu.jpg"),
+                          ),
+                        ),
+                        Text("Text", style: TextStyle(fontSize: 20)),
+                        ],
+                    ),
                   ),
                 ],
               ),
