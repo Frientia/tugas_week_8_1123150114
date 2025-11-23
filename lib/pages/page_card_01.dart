@@ -214,7 +214,15 @@ class MyPages extends StatelessWidget {
                               backgroundImage: AssetImage("assets/images/default-waifu.jpg"),
                             ),
                           ),
-                          Text("Text", style: TextStyle(fontSize: 20)),
+                          SizedBox(height: 10),
+                          Text(
+                            "Frientia", 
+                            style: TextStyle(
+                              fontSize: 26.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              ),
+                            ),
                           ],
                       ),
                     ),
