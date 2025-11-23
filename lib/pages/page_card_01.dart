@@ -118,6 +118,29 @@ class MyPages extends StatelessWidget {
                 child: Text("Custom border radius Card", style: TextStyle(fontSize: 14)),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              elevation: 8,
+              child: Padding(
+                padding: EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Tentang Saya",
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    SizedBox(height: 12),
+                    Text(
+                      'Muhamad yajid rizky seorang mahasiswa yang berkuliah di kampus........',
+                      style: TextStyle(fontSize: 15, color: Colors.grey, height: 1.5),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
