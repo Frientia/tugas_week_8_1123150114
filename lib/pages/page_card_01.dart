@@ -79,6 +79,15 @@ class MyPages extends StatelessWidget {
                 child: Text("Border tidak menimpa konten", style: TextStyle(fontSize: 12)),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              clipBehavior: Clip.antiAlias,
+              child: Padding(
+                padding: EdgeInsets.all(8),
+                child: Text("Anti alias clip Card", style: TextStyle(fontSize: 14)),
+              ),
+            ),
           ],
         ),
       ),
