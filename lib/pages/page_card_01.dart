@@ -193,6 +193,7 @@ class MyPages extends StatelessWidget {
                       ),
                     ),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
                           decoration: BoxDecoration(shape: BoxShape.circle),
