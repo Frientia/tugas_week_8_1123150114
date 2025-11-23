@@ -66,6 +66,19 @@ class MyPages extends StatelessWidget {
                 child: Text("Margin Card", style: TextStyle(fontSize: 10),),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+                side: BorderSide(color: Colors.red, width: 2),
+              ),
+              borderOnForeground: true,
+              child: Padding(
+                padding: EdgeInsets.all(8),
+                child: Text("Border tidak menimpa konten", style: TextStyle(fontSize: 12)),
+              ),
+            ),
           ],
         ),
       ),
