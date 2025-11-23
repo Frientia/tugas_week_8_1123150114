@@ -20,6 +20,15 @@ class MyPages extends StatelessWidget {
                 child: Text("Card with color", style: TextStyle(fontSize: 16),),
               ),
             ),
+            SizedBox(height: 16),
+
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: Colors.red,
+              ),
+              child: Text("Container with Color", style: TextStyle(fontSize: 16),),
+            )
           ],
         ),
       ),
