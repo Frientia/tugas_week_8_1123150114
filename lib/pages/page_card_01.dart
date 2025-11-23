@@ -88,6 +88,15 @@ class MyPages extends StatelessWidget {
                 child: Text("Anti alias clip Card", style: TextStyle(fontSize: 14)),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              semanticContainer: true,
+              child: Padding(
+                padding: EdgeInsets.all(8),
+                child: Text("Semantic true", style: TextStyle(fontSize: 14)),
+              ),
+            ),
           ],
         ),
       ),
