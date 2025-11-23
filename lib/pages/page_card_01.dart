@@ -57,6 +57,15 @@ class MyPages extends StatelessWidget {
                 child: Text("Shape Bingkai persegi panjang", style: TextStyle(fontSize: 12),),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              margin: EdgeInsets.all(16),
+              child: Padding(
+                padding: EdgeInsets.all(8),
+                child: Text("Margin Card", style: TextStyle(fontSize: 10),),
+              ),
+            ),
           ],
         ),
       ),
