@@ -9,6 +9,14 @@ class MyPages extends StatelessWidget {
       appBar: AppBar(
         title: Text("Latihan Card Widget"),
       ),
+      body: SingleChildScrollView(
+        padding: EdgeInsets.all(16),
+        child: Column(
+          children: [
+            
+          ],
+        ),
+      ),
     );
   }
 }

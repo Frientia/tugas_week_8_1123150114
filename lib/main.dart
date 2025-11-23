@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_card_tugas/pages/page_card_01.dart';
 
 void main(){
   runApp(const MyApp());
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Card Widget',
       debugShowCheckedModeBanner: false,
+      home: MyPages(),
     );
   }
 }
