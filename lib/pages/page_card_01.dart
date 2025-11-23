@@ -141,6 +141,23 @@ class MyPages extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              elevation: 8,
+              shadowColor: Colors.red,
+              clipBehavior: Clip.antiAlias,
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topRight,
+                    end: Alignment.bottomLeft,
+                    colors: [Colors.blue, Colors.red],
+                  ),
+                ),
+                child: Text("Text", style: TextStyle(fontSize: 20)),
+              ),
+            ),
           ],
         ),
       ),
