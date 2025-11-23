@@ -198,7 +198,10 @@ class MyPages extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                            decoration: BoxDecoration(shape: BoxShape.circle),
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              border: Border.all(color: Colors.white, width: 4),
+                              ),
                             child: CircleAvatar(
                               radius: 60,
                               backgroundImage: AssetImage("assets/images/default-waifu.jpg"),
