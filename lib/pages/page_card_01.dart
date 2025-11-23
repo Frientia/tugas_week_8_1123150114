@@ -48,6 +48,15 @@ class MyPages extends StatelessWidget {
               ),
               child: Text("Tinggi bayangan Shadow", style: TextStyle(fontSize: 12.0)),
             ),
+            SizedBox(height: 16),
+
+            Card(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+              child: Padding(
+                padding: EdgeInsets.all(8),
+                child: Text("Shape Bingkai persegi panjang", style: TextStyle(fontSize: 12),),
+              ),
+            ),
           ],
         ),
       ),
