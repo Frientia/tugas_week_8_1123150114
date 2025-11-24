@@ -240,6 +240,34 @@ class MyPages extends StatelessWidget {
                                 ),
                               ),
                             ),
+                            Row(
+                              children: [
+                                Text(
+                                  "Column 1",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                                Text(
+                                  "Column 2",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                                  Text(
+                                  "Column 3",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                              ],
+                            )
                           ],
                       ),
                     ),
