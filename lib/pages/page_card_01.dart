@@ -273,11 +273,20 @@ class MyPages extends StatelessWidget {
                               Column(
                                 children: [
                                   Text(
-                                    "Column 2",
+                                    "100",
                                     style: TextStyle(
-                                      fontSize: 16,
+                                      fontSize: 22,
                                       color: Colors.white,
-                                      fontWeight: FontWeight.w500,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(height: 5),
+                                  Text(
+                                    "Following",
+                                    style: TextStyle(
+                                    fontSize: 14.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white.withValues(alpha: 0.5),
                                     ),
                                   ),  
                                 ],
@@ -291,11 +300,20 @@ class MyPages extends StatelessWidget {
                               Column(
                                 children: [
                                   Text(
-                                    "Column 3",
+                                    "100 Years",
                                     style: TextStyle(
-                                      fontSize: 16,
+                                      fontSize: 22,
                                       color: Colors.white,
-                                      fontWeight: FontWeight.w500,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(height: 5),
+                                  Text(
+                                    "Experience",
+                                    style: TextStyle(
+                                    fontSize: 14.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white.withValues(alpha: 0.5),
                                     ),
                                   ),  
                                 ],
