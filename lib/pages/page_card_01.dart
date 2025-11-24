@@ -376,6 +376,15 @@ class MyPages extends StatelessWidget {
                           Icon(Icons.contactless, color: Colors.white54, size: 32),
                         ],
                       ),
+                      SizedBox(height: 30),
+                      Text(
+                        "4562 1122 4595 7852",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 22,
+                          letterSpacing: 3,
+                        ),
+                      ),
                     ],
                   ),
                 ),
