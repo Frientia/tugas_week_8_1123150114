@@ -385,6 +385,38 @@ class MyPages extends StatelessWidget {
                           letterSpacing: 3,
                         ),
                       ),
+
+                      SizedBox(height: 30),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text(
+                            "Muhamad Yajid Rizky",
+                            style: TextStyle(color: Colors.white, fontSize: 16),
+                          ),
+                          Stack(
+                            children: [
+                              Container(
+                                width: 30,
+                                height: 30,
+                                decoration: const BoxDecoration(
+                                  color: Color(0xFFEB001B),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+                              Container(
+                                margin: const EdgeInsets.only(left: 15),
+                                width: 30,
+                                height: 30,
+                                decoration: const BoxDecoration(
+                                  color: Color(0xFFF79E1B),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ),
