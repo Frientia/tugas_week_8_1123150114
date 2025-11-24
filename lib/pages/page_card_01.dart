@@ -246,11 +246,20 @@ class MyPages extends StatelessWidget {
                               Column(
                                 children: [
                                   Text(
-                                    "Column 1",
+                                    "100",
                                     style: TextStyle(
-                                      fontSize: 16,
+                                      fontSize: 22,
                                       color: Colors.white,
-                                      fontWeight: FontWeight.w500,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(height: 5),
+                                  Text(
+                                    "Follower",
+                                    style: TextStyle(
+                                    fontSize: 14.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white.withValues(alpha: 0.5),
                                     ),
                                   ),  
                                 ],
