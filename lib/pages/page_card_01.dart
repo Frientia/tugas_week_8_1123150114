@@ -349,6 +349,17 @@ class MyPages extends StatelessWidget {
                   ],
                 ),
             ),
+
+            SizedBox(height: 16),
+
+            Card(
+              elevation: 8,
+              shadowColor: Colors.red,
+              clipBehavior: Clip.antiAlias,
+              child: Container(
+                padding: EdgeInsets.all(16),
+              ),
+            ),
           ],
         ),
       ),
