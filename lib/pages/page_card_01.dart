@@ -357,6 +357,13 @@ class MyPages extends StatelessWidget {
               shadowColor: Colors.red,
               clipBehavior: Clip.antiAlias,
               child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
+                    colors: [Colors.indigo, Colors.indigoAccent],
+                  ),
+                ),
                 padding: EdgeInsets.all(16),
               ),
             ),
