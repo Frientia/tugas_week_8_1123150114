@@ -364,7 +364,21 @@ class MyPages extends StatelessWidget {
                     colors: [Colors.indigo, Colors.indigoAccent],
                   ),
                 ),
-                padding: EdgeInsets.all(16),
+                child: Padding(
+                  padding: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(Icons.credit_card, color: Colors.white70, size: 32),
+                          Icon(Icons.contactless, color: Colors.white54, size: 32),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
           ],
