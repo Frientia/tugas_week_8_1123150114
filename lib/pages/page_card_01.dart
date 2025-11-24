@@ -223,6 +223,22 @@ class MyPages extends StatelessWidget {
                               color: Colors.white,
                               ),
                             ),
+                            SizedBox(height: 10),
+
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.blue,
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Text(
+                                "Fullstack Developer",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                            ),
                           ],
                       ),
                     ),
