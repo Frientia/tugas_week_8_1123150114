@@ -266,8 +266,11 @@ class MyPages extends StatelessWidget {
                                 ),
                                 SizedBox(
                                   height: 40,
-                                  child: VerticalDivider(thickness: 1,
-                                  color: Colors.black, width: 1),
+                                  child: VerticalDivider(
+                                    thickness: 1,
+                                    color: Colors.black,
+                                    width: 30,
+                                  ),
                                 ),
                                 
                                 Column(
@@ -293,8 +296,11 @@ class MyPages extends StatelessWidget {
                                 ),
                                 SizedBox(
                                   height: 40,
-                                  child: VerticalDivider(thickness: 1,
-                                  color: Colors.black, width: 1),
+                                  child: VerticalDivider(
+                                    thickness: 1,
+                                    color: Colors.black, 
+                                    width: 30,
+                                    ),
                                 ),
 
                                 Column(
@@ -319,7 +325,7 @@ class MyPages extends StatelessWidget {
                                   ],
                                 ),
                               ],
-                            )
+                            ),
                           ],
                         ),
                       ],
