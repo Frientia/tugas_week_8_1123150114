@@ -253,6 +253,16 @@ class MyPages extends StatelessWidget {
                                       fontWeight: FontWeight.w500,
                                     ),
                                   ),
+                                  SizedBox(
+                                    height: 40,
+                                    child: VerticalDivider(thickness: 1,
+                                    color: Colors.black, width: 1),
+                                  ),
+                                  SizedBox(
+                                    height: 40,
+                                    child: VerticalDivider(thickness: 1,
+                                    color: Colors.black, width: 1),
+                                  ),
                                   Text(
                                     "Column 2",
                                     style: TextStyle(
@@ -261,7 +271,12 @@ class MyPages extends StatelessWidget {
                                       fontWeight: FontWeight.w500,
                                     ),
                                   ),
-                                    Text(
+                                  SizedBox(
+                                    height: 40,
+                                    child: VerticalDivider(thickness: 1,
+                                    color: Colors.black, width: 1),
+                                  ),
+                                  Text(
                                     "Column 3",
                                     style: TextStyle(
                                       fontSize: 16,
