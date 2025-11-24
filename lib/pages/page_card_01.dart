@@ -386,7 +386,7 @@ class MyPages extends StatelessWidget {
                         ),
                       ),
 
-                      SizedBox(height: 30),
+                      SizedBox(height: 20),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -414,6 +414,38 @@ class MyPages extends StatelessWidget {
                                 ),
                               ),
                             ],
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 20),
+
+                      Row(
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text("Expiry Date", style: TextStyle(color: Colors.white70, fontSize: 14)),
+                              SizedBox(height: 4),
+                              Text("24/2000", style: TextStyle(color: Colors.white, fontSize: 16)),
+                            ],
+                          ),
+
+                          SizedBox(width: 40),
+
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text("CVV", style: TextStyle(color: Colors.white70, fontSize: 14)),
+                              SizedBox(height: 4),
+                              Text("6986", style: TextStyle(color: Colors.white, fontSize: 16)),
+                            ],
+                          ),
+
+                          Spacer(),
+
+                          const Text(
+                            "Mastercard",
+                            style: TextStyle(color: Colors.white, fontSize: 16),
                           ),
                         ],
                       ),
