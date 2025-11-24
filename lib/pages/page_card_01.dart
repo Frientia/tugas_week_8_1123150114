@@ -226,6 +226,7 @@ class MyPages extends StatelessWidget {
                             SizedBox(height: 10),
 
                             Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                               decoration: BoxDecoration(
                                 color: Colors.blue,
                                 borderRadius: BorderRadius.circular(20),
